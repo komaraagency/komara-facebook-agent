@@ -27,7 +27,7 @@ KB_PATH = BASE_DIR / "kb.json"
 FAQ_PATH = BASE_DIR / "docs" / "faq.md"
 GRAPH_API_VERSION = os.getenv("GRAPH_API_VERSION", "v23.0")
 GRAPH_API_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
-PAGE_ID = os.getenv("FACEBOOK_PAGE_ID", "1966578313568105")
+PAGE_ID = os.getenv("FACEBOOK_PAGE_ID", "105344997852517")
 PAGE_ACCESS_TOKEN = os.getenv("FACEBOOK_PAGE_ACCESS_TOKEN", "")
 VERIFY_TOKEN = os.getenv("FACEBOOK_VERIFY_TOKEN", "")
 DRY_RUN = os.getenv("DRY_RUN", "true").lower() == "true"
