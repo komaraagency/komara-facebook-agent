@@ -1,0 +1,50 @@
+{
+  "greeting": "Bienvenue 👋 Ici tu es dans l'univers de Ndine Komara, créateur digital. Design visuel, innovation, et digital au service de tes idées. Dis-moi ce qui t'intéresse 😎",
+  "fallback": "Merci pour votre message, {name} ! 💬 Notre équipe revient vers vous rapidement. En attendant, tapez 'tarifs' ou 'services' pour découvrir nos offres.",
+  "rules": [
+    {
+      "keywords": ["tarif", "tarifs", "prix", "combien", "cout", "coût", "price"],
+      "response": "💰 Tarifs Komara Agency :\n\n🎨 Logo pro : 300k - 500k GNF\n🖼 Affiche/Flyer : 300k GNF\n📸 Retouche photo : sur discussion\n🎬 Vidéo IA : 500k - 1M GNF\n🤖 Bots : sur devis\n\n✅ 2 révisions gratuites\n⚡ Express 24h : +30%\n💳 Orange Money, MTN, Virement, PayPal"
+    },
+    {
+      "keywords": ["logo", "identité", "identite", "branding"],
+      "response": "🎨 Logo Pro chez Komara Agency :\n\nPrix : 300k - 500k GNF selon complexité\nDélai : 2-3 jours (Express 24h : +30%)\nInclus : 2 révisions gratuites\n\nEnvoyez-nous vos idées sur WhatsApp : +212 701-986219 🚀"
+    },
+    {
+      "keywords": ["affiche", "flyer", "poster", "publicité", "publicite"],
+      "response": "🖼 Affiche / Flyer pro :\n\nPrix : 300k GNF\nDélai : 1-2 jours (Express 24h : +30%)\n\nEnvoyez le texte et les infos à mettre dessus, on démarre ! 🚀"
+    },
+    {
+      "keywords": ["vidéo", "video", "reel", "reels", "miniMax"],
+      "response": "🎬 Vidéo IA - MiniMax H3 :\n\nGénération de vidéos ultra-réalistes, 4 à 15 secondes, qualité 2K avec audio.\n\n💰 Vidéo 6s : 500k GNF\n💰 Vidéo 10s : 800k GNF\n💰 Vidéo 15s : 1M GNF\n⚡ Express 24h : +30%\n\nDécrivez-nous la vidéo de vos rêves 👇"
+    },
+    {
+      "keywords": ["retouche", "photo", "photoshop", "montage photo"],
+      "response": "📸 Retouche photo professionnelle :\n\nCorrection, amélioration, création réaliste — niveau studio.\nPrix sur discussion selon le volume.\n\nEnvoyez votre photo sur WhatsApp : +212 701-986219 📷"
+    },
+    {
+      "keywords": ["bot", "automatisation", "automatisation", "ia", "intelligence artificielle"],
+      "response": "🤖 Bots & Automatisations Komara Agency :\n\nBots Telegram, WhatsApp, Facebook Messenger — sur devis.\nAutomatisations réseaux sociaux et gestion client.\n\nParlons de votre projet sur WhatsApp : +212 701-986219 🚀"
+    },
+    {
+      "keywords": ["contact", "whatsapp", "numéro", "numero", "joindre", "telephone"],
+      "response": "📞 Contact Komara Agency :\n\nWhatsApp : +212 701-986219\nRéponse rapide garantie 🚀\n\nKomara Agency 🇬🇳 — Vision. Impact. Excellence."
+    },
+    {
+      "keywords": ["délai", "delai", "durée", "duree", "temps", "quand"],
+      "response": "⏱ Délais habituels :\n\nLogo : 2-3 jours\nAffiche : 1-2 jours\nRetouche : 24-48h\nVidéo IA : 24-72h\n\nBesoin urgent ? Express 24h disponible (+30%) ⚡"
+    },
+    {
+      "keywords": ["paiement", "payer", "paiement", "orange money", "mtn", "virement", "paypal"],
+      "response": "💳 Paiements acceptés :\n\n• Orange Money\n• MTN Mobile Money\n• Virement bancaire\n• PayPal\n\nUn acompte peut être demandé pour démarrer le projet 🤝"
+    },
+    {
+      "keywords": ["portfolio", "travaux", "exemples", "réalisations", "realisations"],
+      "response": "🎨 Portfolio Komara Agency :\n\nDécouvrez nos réalisations sur notre page et sur https://ndinekomara2442-cmd.github.io/komara-agency-portfolio/ 📸"
+    },
+    {
+      "keywords": ["merci", "thanks", "top", "génial", "genial"],
+      "response": "Avec plaisir ! 😊 Komara Agency 🇬🇳 — Vision. Impact. Excellence."
+    }
+  ]
+}
