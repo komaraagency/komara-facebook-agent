@@ -29,10 +29,10 @@ Oui. Nous pouvons construire une identité cohérente avec logo, couleurs, typog
 ## II. Prix et devis
 
 ### Combien coûtent vos services ?
-Le prix dépend du service, du niveau de personnalisation et du nombre de livrables. Les offres connues commencent notamment à 1200 MAD pour certains packs ou sites, tandis que les bots, applications et identités complètes sont généralement établis sur devis.
+Le prix dépend du service, du niveau de personnalisation et du nombre de livrables. Les offres connues commencent notamment à 120€ pour certains packs ou sites, tandis que les bots, applications et identités complètes sont généralement établis sur devis.
 
 ### Avez-vous des packs ?
-Oui. Le Pack Starter est proposé à 1200 MAD et comprend 5 visuels, 3 vidéos et un logo. Le Pack Business est proposé à 3500 MAD et comprend 15 visuels, 10 vidéos et 1 mois de publicité.
+Oui. Le Pack Starter est proposé à 120€ et comprend 5 visuels, 3 vidéos et un logo. Le Pack Business est proposé à 350€ et comprend 15 visuels, 10 vidéos et 1 mois de publicité.
 
 ### Comment obtenir un devis précis ?
 Indiquez votre activité, votre objectif, le service souhaité, le canal concerné et votre délai. Nous pourrons ensuite vous orienter vers la bonne solution et établir une estimation adaptée.

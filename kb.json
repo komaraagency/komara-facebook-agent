@@ -41,7 +41,7 @@
       "id": "agent_commercial",
       "categorie": "BOTS INTELLIGENTS",
       "nom": "Agent I.A. Commercial WhatsApp",
-      "prix": "à partir de 1200 MAD",
+      "prix": "à partir de 120€",
       "description": "Vend et répond aux clients 24H/24. Cible : e-commerce et boutiques."
     },
     {
@@ -62,7 +62,7 @@
       "id": "site_web",
       "categorie": "DÉVELOPPEMENT & PROGRAMMATION",
       "nom": "Création de site web et formulaire de prospects",
-      "prix": "à partir de 1200 MAD",
+      "prix": "à partir de 120€",
       "description": "Site vitrine ou landing page en HTML, CSS et JavaScript avec formulaire intégré."
     },
     {
@@ -97,26 +97,26 @@
       "id": "video_ugc",
       "categorie": "CRÉATION DIGITALE",
       "nom": "Vidéo UGC avec avatar IA",
-      "prix": "900 MAD / 1 vidéo 30s",
+      "prix": "90€ / 1 vidéo 30s",
       "description": "Un avatar présente votre produit sans que vous ayez besoin de vous filmer."
     },
     {
       "id": "formation",
       "categorie": "BOTS INTELLIGENTS",
       "nom": "Formation automatisation et IA Business",
-      "prix": "2500 MAD",
+      "prix": "250€",
       "description": "Automatiser sa prospection, créer du contenu et vendre avec des outils numériques."
     }
   ],
   "packs": [
     {
       "nom": "Pack Starter",
-      "prix": "1200 MAD",
+      "prix": "120€",
       "contenu": "5 visuels + 3 vidéos + Logo"
     },
     {
       "nom": "Pack Business",
-      "prix": "3500 MAD",
+      "prix": "350€",
       "contenu": "15 visuels + 10 vidéos + 1 mois pub"
     }
   ],
@@ -1927,7 +1927,7 @@
         "quel est le coût",
         "combien faut-il prévoir"
       ],
-      "answer": "Ça dépend de ce que tu veux que le bot fasse 😊\nNos packs commencent à 99$. Le plus vendu : Bot de prise de commande + FAQ à 150$.\nTu veux le détail des 3 packs ?",
+      "answer": "Ça dépend de ce que tu veux que le bot fasse 😊\nNos packs commencent à 99€. Le plus vendu : Bot de prise de commande + FAQ à 150€.\nTu veux le détail des 3 packs ?",
       "tags": [
         "tarifs",
         "local"
@@ -1939,7 +1939,7 @@
       "questions": [
         "tarifs"
       ],
-      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 1200 MAD, Pack Business à 3500 MAD, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
+      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 120€, Pack Business à 350€, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
       "tags": [
         "tarifs",
         "local"
@@ -1951,7 +1951,7 @@
       "questions": [
         "coût"
       ],
-      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 1200 MAD, Pack Business à 3500 MAD, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
+      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 120€, Pack Business à 350€, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
       "tags": [
         "tarifs",
         "local"
@@ -1966,7 +1966,7 @@
         "ca coute combien",
         "combien ca fait"
       ],
-      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 1200 MAD, Pack Business à 3500 MAD, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
+      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 120€, Pack Business à 350€, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
       "tags": [
         "tarifs",
         "local"
@@ -1978,7 +1978,7 @@
       "questions": [
         "quel est le budget"
       ],
-      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 1200 MAD, Pack Business à 3500 MAD, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
+      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 120€, Pack Business à 350€, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
       "tags": [
         "tarifs",
         "local"
@@ -1994,7 +1994,7 @@
         "combien c est un bot",
         "le bot c est combien"
       ],
-      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 1200 MAD, Pack Business à 3500 MAD, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
+      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 120€, Pack Business à 350€, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
       "tags": [
         "tarifs",
         "local"
@@ -2009,7 +2009,7 @@
         "combien c est un site",
         "le site c est combien"
       ],
-      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 1200 MAD, Pack Business à 3500 MAD, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
+      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 120€, Pack Business à 350€, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
       "tags": [
         "tarifs",
         "local"
@@ -2023,7 +2023,7 @@
         "combien pour un logo",
         "combien c est un logo"
       ],
-      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 1200 MAD, Pack Business à 3500 MAD, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
+      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 120€, Pack Business à 350€, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
       "tags": [
         "tarifs",
         "local"
@@ -2038,7 +2038,7 @@
         "combien c est une application",
         "l application c est combien"
       ],
-      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 1200 MAD, Pack Business à 3500 MAD, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
+      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 120€, Pack Business à 350€, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
       "tags": [
         "tarifs",
         "local"
@@ -2050,7 +2050,7 @@
       "questions": [
         "devis"
       ],
-      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 1200 MAD, Pack Business à 3500 MAD, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
+      "answer": "Ça dépend de ton projet 😊\nMais pour te donner une idée : packs à partir de 120€, Pack Business à 350€, et le sur-mesure sur devis.\nTu veux un devis précis pour ton projet ?",
       "tags": [
         "tarifs",
         "local"
@@ -2241,7 +2241,7 @@
         "en 2 fois",
         "paiement en 2 fois"
       ],
-      "answer": "Oui on peut s'arranger. 60$ maintenant, 39$ à la livraison.\nJuste pour montrer que t'es sérieux.",
+      "answer": "Oui on peut s'arranger. 60€ maintenant, 39€ à la livraison.\nJuste pour montrer que t'es sérieux.",
       "tags": [
         "paiement",
         "local"
@@ -2320,7 +2320,7 @@
         "c est trop cher",
         "pourquoi c est cher"
       ],
-      "answer": "Je comprends. 99$ c'est un budget.\nMais dis-moi : si le bot te ramène 1 client de 50$, en 2 clients c'est rentabilisé non ?\nOn voit ça comme un investissement.",
+      "answer": "Je comprends. 99€ c'est un budget.\nMais dis-moi : si le bot te ramène 1 client de 50€, en 2 clients c'est rentabilisé non ?\nOn voit ça comme un investissement.",
       "tags": [
         "objections",
         "local"
@@ -2346,7 +2346,7 @@
         "je vais voir moins cher",
         "je trouve moins cher ailleurs"
       ],
-      "answer": "Normal de comparer 😊 Fais attention aux bots à 20$. Souvent ça bug et y'a pas de support.\nChez nous 99$ = Bot + Formation + 1 mois support. Tranquille.\nTu préfères payer 2 fois ou bien faire une fois et bien ?",
+      "answer": "Normal de comparer 😊 Fais attention aux bots à 20€. Souvent ça bug et y'a pas de support.\nChez nous 99€ = Bot + Formation + 1 mois support. Tranquille.\nTu préfères payer 2 fois ou bien faire une fois et bien ?",
       "tags": [
         "objections",
         "local"
@@ -5903,7 +5903,7 @@
         "notification client",
         "client important"
       ],
-      "answer": "Oui. Client 500.000 FG en ligne. Tu peux reprendre la main."
+      "answer": "Oui. Client 50€ en ligne. Tu peux reprendre la main."
     },
     {
       "id": 149,
@@ -7618,9 +7618,9 @@
         "prix mensuel",
         "abonnement komara",
         "récupérer investissement",
-        "50.000 fcfa"
+        "490€"
       ],
-      "answer": "À partir de 50.000 FCFA/mois.\nLa plupart de nos clients rentabilisent en 7 jours.\n1 seule vente de 60.000 FCFA paye déjà l'Agent du mois.",
+      "answer": "À partir de 490€/mois.\nLa plupart de nos clients rentabilisent en 7 jours.\n1 seule vente de 500€ paye déjà l'Agent du mois.",
       "tags": [
         "vente",
         "prix",
@@ -8243,7 +8243,7 @@
         "je vais y penser",
         "j hesite encore"
       ],
-      "answer": "Ok je te laisse tranquille.\nMais je te dis : la promo finit dimanche. Après ça je pourrai plus te faire 99$.\nTu me dis avant dimanche ok ?"
+      "answer": "Ok je te laisse tranquille.\nMais je te dis : la promo finit dimanche. Après ça je pourrai plus te faire 99€.\nTu me dis avant dimanche ok ?"
     },
     {
       "id": "conv_23",
@@ -8308,7 +8308,7 @@
         "budget serre",
         "je suis fauché"
       ],
-      "answer": "Je capte 🙏 On a un pack \"Starter\" à 99$ pour débuter.\nIl fait déjà 80% du travail. Quand tu auras des ventes, on upgrade."
+      "answer": "Je capte 🙏 On a un pack \"Starter\" à 99€ pour débuter.\nIl fait déjà 80% du travail. Quand tu auras des ventes, on upgrade."
     },
     {
       "id": "conv_27",
@@ -8386,7 +8386,7 @@
         "tu me conseilles quel pack",
         "aide moi a choisir un pack"
       ],
-      "answer": "Voici nos 3 packs KOMARA AGENCY 👇\nSTARTER 99$ : FAQ + Réponses auto\nBUSINESS 150$ : Prise de commande + Paiement\nPREMIUM 250$ : Bot complet + CRM + Stats\nDis-moi, tu cherches quoi exactement ? Comme ça je te montre ce qui t'intéresse."
+      "answer": "Voici nos 3 packs KOMARA AGENCY 👇\nSTARTER 99€ : FAQ + Réponses auto\nBUSINESS 150€ : Prise de commande + Paiement\nPREMIUM 250€ : Bot complet + CRM + Stats\nDis-moi, tu cherches quoi exactement ? Comme ça je te montre ce qui t'intéresse."
     },
     {
       "id": "conv_31",
@@ -8418,7 +8418,7 @@
         "trop de texte",
         "fais court"
       ],
-      "answer": "Résumé express : Bot WhatsApp qui vend pour toi 24H/24.\nÀ partir de 99$. Livré en 48H.\nTu veux qu'on démarre ?"
+      "answer": "Résumé express : Bot WhatsApp qui vend pour toi 24H/24.\nÀ partir de 99€. Livré en 48H.\nTu veux qu'on démarre ?"
     },
     {
       "id": "conv_33",
@@ -8428,11 +8428,11 @@
         "justification"
       ],
       "questions": [
-        "pourquoi 99$",
+        "pourquoi 99€",
         "pourquoi ce prix",
         "justifie le prix"
       ],
-      "answer": "Parce que je te livre un commercial 24H/24 pendant 1 an pour 99$.\nUn vrai commercial ça coûte 300$/mois. Là tu gagnes.\nOn démarre ?"
+      "answer": "Parce que je te livre un commercial 24H/24 pendant 1 an pour 99€.\nUn vrai commercial ça coûte 300€/mois. Là tu gagnes.\nOn démarre ?"
     },
     {
       "id": "conv_34",
@@ -8461,7 +8461,7 @@
         "pas dispo cette semaine",
         "occupe en ce moment"
       ],
-      "answer": "Pas de souci. Réserve ta place à 99$ maintenant et on démarre quand tu veux.\nAprès le 30 le prix repasse à 250$. Je te garde la place ?"
+      "answer": "Pas de souci. Réserve ta place à 99€ maintenant et on démarre quand tu veux.\nAprès le 30 le prix repasse à 250€. Je te garde la place ?"
     },
     {
       "id": "conv_36",
@@ -8490,7 +8490,7 @@
         "je reponds demain",
         "demain je te dis"
       ],
-      "answer": "Parfait 👍 Je note.\nJe te relance demain 10h. En attendant je te garde le tarif à 99$"
+      "answer": "Parfait 👍 Je note.\nJe te relance demain 10h. En attendant je te garde le tarif à 99€"
     },
     {
       "id": "conv_38",
@@ -8520,7 +8520,7 @@
         "facture proforma",
         "il me faut une facture"
       ],
-      "answer": "Voici ta facture proforma KOMARA AGENCY 👇\nMontant : 99$\nDétails : Création Bot WhatsApp + 1 mois support\nTu valides et on démarre."
+      "answer": "Voici ta facture proforma KOMARA AGENCY 👇\nMontant : 99€\nDétails : Création Bot WhatsApp + 1 mois support\nTu valides et on démarre."
     },
     {
       "id": "conv_40",
@@ -8535,7 +8535,7 @@
         "encore dispo",
         "ca expire"
       ],
-      "answer": "Info : Il me reste 1 seule place à 99$ pour ce mois.\nLes 2 autres sont déjà prises. Tu la veux ?"
+      "answer": "Info : Il me reste 1 seule place à 99€ pour ce mois.\nLes 2 autres sont déjà prises. Tu la veux ?"
     },
     {
       "id": "conv_41",
@@ -8680,7 +8680,7 @@
         "proposition de valeur",
         "vaut il le coup"
       ],
-      "answer": "En gros : Tu payes 99$ une fois.\nTu récupères 3h/jour + des clients en plus tous les jours.\nC'est rentable en 1 semaine."
+      "answer": "En gros : Tu payes 99€ une fois.\nTu récupères 3h/jour + des clients en plus tous les jours.\nC'est rentable en 1 semaine."
     },
     {
       "id": "conv_51",
@@ -8695,7 +8695,7 @@
         "embauche ou bot",
         "vendeur humain"
       ],
-      "answer": "Embaucher = 200$/mois.\nBot = 99$ à vie.\nLequel tu choisis ?"
+      "answer": "Embaucher = 200€/mois.\nBot = 99€ à vie.\nLequel tu choisis ?"
     },
     {
       "id": "conv_52",
@@ -8791,7 +8791,7 @@
         "fiverr"
       ],
       "questions": [
-        "j ai vu sur fiverr a 30$",
+        "j ai vu sur fiverr a 30€",
         "sur fiverr c est moins cher",
         "moins cher sur internet"
       ],
@@ -8853,7 +8853,7 @@
         "par ou commencer",
         "je sais pas quoi faire"
       ],
-      "answer": "Respire 😊 On commence petit. Pack Starter 99$.\nJe te guide étape par étape. Dans 48h t'as ton bot et tu respires."
+      "answer": "Respire 😊 On commence petit. Pack Starter 99€.\nJe te guide étape par étape. Dans 48h t'as ton bot et tu respires."
     },
     {
       "id": "conv_63",
@@ -8898,7 +8898,7 @@
         "temps argent",
         "combien de temps je perds"
       ],
-      "answer": "Si tu gagnes 10$ de l'heure et que le bot te fait gagner 3h/jour...\nIl se paye en 3 jours. Le reste c'est du bénéfice."
+      "answer": "Si tu gagnes 10€ de l'heure et que le bot te fait gagner 3h/jour...\nIl se paye en 3 jours. Le reste c'est du bénéfice."
     },
     {
       "id": "conv_66",
@@ -9303,7 +9303,7 @@
         "petit budget",
         "je demarre petit"
       ],
-      "answer": "Parfait. On commence Pack Starter 99$.\n1 seul produit, 5 questions. Quand ça marche on upgrade."
+      "answer": "Parfait. On commence Pack Starter 99€.\n1 seul produit, 5 questions. Quand ça marche on upgrade."
     },
     {
       "id": "conv_93",
@@ -9346,7 +9346,7 @@
         "tu peux baisser le prix",
         "tu fais un geste"
       ],
-      "answer": "99$ c'est déjà le prix cassé du mois 😅\nMais je peux t'offrir 2 semaines de support en plus. Ça te va ?"
+      "answer": "99€ c'est déjà le prix cassé du mois 😅\nMais je peux t'offrir 2 semaines de support en plus. Ça te va ?"
     },
     {
       "id": "conv_96",
@@ -9789,7 +9789,7 @@
         "est ce que c est fiable",
         "c est quoi le prix et est ce fiable"
       ],
-      "answer": "Très bonnes questions.\nAu niveau prix : Pack Starter à 99$ une seule fois. Pas d'abonnement.\nAu niveau fiabilité : API officielle WhatsApp de Meta, 0 risque de blocage. + Garantie 7 jours satisfait ou modifié.\nJe peux vous envoyer 2 témoignages clients si vous voulez.\nVous préférez la fiche technique PDF ou une vidéo démo ?"
+      "answer": "Très bonnes questions.\nAu niveau prix : Pack Starter à 99€ une seule fois. Pas d'abonnement.\nAu niveau fiabilité : API officielle WhatsApp de Meta, 0 risque de blocage. + Garantie 7 jours satisfait ou modifié.\nJe peux vous envoyer 2 témoignages clients si vous voulez.\nVous préférez la fiche technique PDF ou une vidéo démo ?"
     },
     {
       "id": "pro_09",
@@ -9804,7 +9804,7 @@
         "vos offres bot",
         "pack starter et pack pro"
       ],
-      "answer": "Nous avons 2 offres :\n*Pack Starter - 99$*\nBot complet personnalisé à votre marque, 10 produits/services configurés, réponses automatiques + paiement intégré, formation vidéo + 1 mois support\n*Pack Pro - 250$*\nTout le Starter + boutique complète + statistiques + relances auto\nActuellement le Pack Starter est à 99$ jusqu'à dimanche.\nQuelle offre vous correspond le mieux ?"
+      "answer": "Nous avons 2 offres :\n*Pack Starter - 99€*\nBot complet personnalisé à votre marque, 10 produits/services configurés, réponses automatiques + paiement intégré, formation vidéo + 1 mois support\n*Pack Pro - 250€*\nTout le Starter + boutique complète + statistiques + relances auto\nActuellement le Pack Starter est à 99€ jusqu'à dimanche.\nQuelle offre vous correspond le mieux ?"
     },
     {
       "id": "pro_10",
@@ -9884,7 +9884,7 @@
         "prix des visuels",
         "packs photos"
       ],
-      "answer": "Nous avons 3 packs :\n*Pack Starter - 50.000 FG*\n5 visuels pro + texte accroche + format statut + feed\n*Pack Business - 120.000 FG*\n15 visuels + 3 vidéos courtes + calendrier de publication 1 mois\n*Pack Premium - 250.000 FG*\n30 visuels + branding complet + gestion des statuts 1 mois\nLivraison 48h partout en Guinée. Modifications incluses.\nQuel pack vous intéresse le plus ?"
+      "answer": "Nous avons 3 packs :\n*Pack Starter - 5€*\n5 visuels pro + texte accroche + format statut + feed\n*Pack Business - 12€*\n15 visuels + 3 vidéos courtes + calendrier de publication 1 mois\n*Pack Premium - 25€*\n30 visuels + branding complet + gestion des statuts 1 mois\nLivraison 48h partout en Guinée. Modifications incluses.\nQuel pack vous intéresse le plus ?"
     },
     {
       "id": "pro_15",
@@ -9899,7 +9899,7 @@
         "50 000 fg c est cher",
         "trop cher les visuels"
       ],
-      "answer": "Je comprends. 50.000 FG c'est un budget.\nMais dites-vous : 1 seule vente de 200.000 FG grâce à un bon visuel et c'est rentabilisé.\nOn peut commencer par le Pack Starter pour tester.\nVous avez des photos de vos produits à m'envoyer ?"
+      "answer": "Je comprends. 5€ c'est un budget.\nMais dites-vous : 1 seule vente de 20€ grâce à un bon visuel et c'est rentabilisé.\nOn peut commencer par le Pack Starter pour tester.\nVous avez des photos de vos produits à m'envoyer ?"
     },
     {
       "id": "pro_16",
@@ -9975,7 +9975,7 @@
         "combien coute un site vitrine",
         "packs site guinee"
       ],
-      "answer": "Nous avons 3 offres pour le marché guinéen :\n*Pack ESSENTIEL - 1.500.000 FG*\n5 pages (Accueil, À Propos, Services, Galerie, Contact), design pro + mobile, formulaire WhatsApp + Google Maps, domaine + hébergement 1 an offerts. Livraison : 7 jours\n*Pack BUSINESS - 3.000.000 FG*\nTout l'Essentiel + 10 pages + blog + SEO de base + Facebook/Instagram. Livraison : 10 jours\n*Pack E-COMMERCE - 5.500.000 FG*\nBoutique complète + paiement Mobile Money + 20 produits + gestion commandes. Livraison : 14 jours\nQuel pack vous correspond le mieux ?"
+      "answer": "Nous avons 3 offres pour le marché guinéen :\n*Pack ESSENTIEL - 150€*\n5 pages (Accueil, À Propos, Services, Galerie, Contact), design pro + mobile, formulaire WhatsApp + Google Maps, domaine + hébergement 1 an offerts. Livraison : 7 jours\n*Pack BUSINESS - 300€*\nTout l'Essentiel + 10 pages + blog + SEO de base + Facebook/Instagram. Livraison : 10 jours\n*Pack E-COMMERCE - 550€*\nBoutique complète + paiement Mobile Money + 20 produits + gestion commandes. Livraison : 14 jours\nQuel pack vous correspond le mieux ?"
     },
     {
       "id": "pro_21",
@@ -10006,7 +10006,7 @@
         "combien coute l hebergement apres",
         "apres 1 an le site"
       ],
-      "answer": "Très bonne question.\nAprès 1 an, le renouvellement domaine + hébergement c'est 250.000 FG / an.\nOn vous prévient 1 mois avant. Et vous restez 100% propriétaire du site."
+      "answer": "Très bonne question.\nAprès 1 an, le renouvellement domaine + hébergement c'est 25€ / an.\nOn vous prévient 1 mois avant. Et vous restez 100% propriétaire du site."
     },
     {
       "id": "pro_23",
@@ -10036,7 +10036,7 @@
         "je peux changer le site apres",
         "modif site apres"
       ],
-      "answer": "1 mois de modifications gratuites inclus.\nAprès, 10.000 FG la modif.\nEt vous restez propriétaire à 100% de votre site."
+      "answer": "1 mois de modifications gratuites inclus.\nAprès, 1€ la modif.\nEt vous restez propriétaire à 100% de votre site."
     },
     {
       "id": "pro_25",
@@ -10141,7 +10141,7 @@
         "sous traitance tarifs",
         "tarifs marque blanche"
       ],
-      "answer": "Pour les agences partenaires, tarifs préférentiels :\nSite Vitrine : 900.000 FG au lieu de 1.500.000 FG\nSite E-commerce : 3.500.000 FG au lieu de 5.500.000 FG\nVisuels : -30% sur tous les packs\nEn échange : minimum 2 projets/mois.\nJe vous envoie le dossier partenaire PDF + 3 sites exemples ?"
+      "answer": "Pour les agences partenaires, tarifs préférentiels :\nSite Vitrine : 90€ au lieu de 150€\nSite E-commerce : 350€ au lieu de 550€\nVisuels : -30% sur tous les packs\nEn échange : minimum 2 projets/mois.\nJe vous envoie le dossier partenaire PDF + 3 sites exemples ?"
     },
     {
       "id": "pro_32",
@@ -10169,7 +10169,7 @@
         "je suis cm",
         "community manager"
       ],
-      "answer": "Parfait. On a besoin de CM sérieux.\n2 collabs possibles :\n1. Apporteur d'affaires : tu nous ramènes un client site/bot, on te donne 20% de commission.\n2. Prestation : tu gères la page d'un client KOMARA, on te paie 300.000 FG/mois par client.\nTu préfères vendre ou exécuter ?"
+      "answer": "Parfait. On a besoin de CM sérieux.\n2 collabs possibles :\n1. Apporteur d'affaires : tu nous ramènes un client site/bot, on te donne 20% de commission.\n2. Prestation : tu gères la page d'un client KOMARA, on te paie 30€/mois par client.\nTu préfères vendre ou exécuter ?"
     },
     {
       "id": "pro_34",
@@ -10186,7 +10186,7 @@
         "abonnement mensuel",
         "departement digital"
       ],
-      "answer": "Chez KOMARA AGENCY on ne fait pas \"1 site et on disparaît\".\nAccompagnement sur 12 mois :\n1. Audit gratuit 30min : on analyse votre business\n2. Proposition : 1 ou 2 offres claires avec délai et budget\n3. Exécution + suivi : livraison + 1 mois support + RDV bilan chaque mois\nL'idée : devenir votre département digital externe (500.000 FG/mois).\nOn cale l'audit gratuit cette semaine ?"
+      "answer": "Chez KOMARA AGENCY on ne fait pas \"1 site et on disparaît\".\nAccompagnement sur 12 mois :\n1. Audit gratuit 30min : on analyse votre business\n2. Proposition : 1 ou 2 offres claires avec délai et budget\n3. Exécution + suivi : livraison + 1 mois support + RDV bilan chaque mois\nL'idée : devenir votre département digital externe (50€/mois).\nOn cale l'audit gratuit cette semaine ?"
     },
     {
       "id": "pro_35",
