@@ -19,12 +19,17 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import PlainTextResponse
 
+from local_search import trouver_meilleure_reponse
+from normalize_text import normalize_text
+
 BASE_DIR = Path(__file__).resolve().parent
 load_dotenv(BASE_DIR / ".env")
 
 DB_PATH = Path(os.getenv("DATABASE_PATH", str(BASE_DIR / "data" / "memory.db")))
 KB_PATH = BASE_DIR / "kb.json"
 FAQ_PATH = BASE_DIR / "docs" / "faq.md"
+DIALOGUES_DIR = BASE_DIR / "dialogues"
+AYA2_DIALOGUES_PATH = BASE_DIR / "docs" / "aya2" / "dialogues.json"
 GRAPH_API_VERSION = os.getenv("GRAPH_API_VERSION", "v23.0")
 GRAPH_API_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
 PAGE_ID = os.getenv("FACEBOOK_PAGE_ID", "105344997852517")
@@ -65,61 +70,83 @@ def init_db() -> None:
         )
 
 
-def load_json(path: Path) -> dict[str, Any]:
+def _parse_markdown_sections(content: str) -> list[dict[str, str]]:
+    """Parse les sections ### Question / réponse d'un fichier markdown."""
+    items: list[dict[str, str]] = []
+    sections = re.split(r"(?m)^\s*###\s+(.*?)\s*\n", content)
+    for i in range(1, len(sections), 2):
+        if i + 1 < len(sections):
+            question = sections[i].strip()
+            answer = sections[i + 1].strip()
+            if question and answer:
+                items.append({"question": question, "answer": answer})
+    return items
+
+
+# --- Cerveau local chargé une seule fois au démarrage ------------------------
+_BRAIN: dict[str, Any] = {"kb": [], "faq": [], "dialogues": [], "meta": {}}
+
+
+def load_brain() -> None:
+    """Charge kb.json + FAQ + dialogues + Aya2 (100% local, zéro API)."""
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {}
+        data = json.loads(KB_PATH.read_text(encoding="utf-8"))
+        _BRAIN["kb"] = data.get("knowledge", [])
+        _BRAIN["meta"] = {k: v for k, v in data.items() if k != "knowledge"}
+    except (FileNotFoundError, json.JSONDecodeError) as exc:
+        print(f"[brain] kb.json illisible : {exc}")
 
+    if FAQ_PATH.is_file():
+        _BRAIN["faq"] = _parse_markdown_sections(FAQ_PATH.read_text(encoding="utf-8"))
 
-def load_faq() -> list[tuple[str, str]]:
-    if not FAQ_PATH.exists():
-        return []
-    pairs: list[tuple[str, str]] = []
-    question = ""
-    answer_lines: list[str] = []
-    for raw_line in FAQ_PATH.read_text(encoding="utf-8").splitlines():
-        line = raw_line.strip()
-        if line.startswith("## "):
-            if question and answer_lines:
-                pairs.append((question, " ".join(answer_lines).strip()))
-            question = line[3:].strip()
-            answer_lines = []
-        elif question and line and not line.startswith("#"):
-            answer_lines.append(line.lstrip("- "))
-    if question and answer_lines:
-        pairs.append((question, " ".join(answer_lines).strip()))
-    return pairs
+    if DIALOGUES_DIR.is_dir():
+        for file_path in DIALOGUES_DIR.iterdir():
+            if file_path.is_file() and file_path.suffix in {".md", ".txt"}:
+                try:
+                    _BRAIN["dialogues"].extend(
+                        _parse_markdown_sections(file_path.read_text(encoding="utf-8"))
+                    )
+                except OSError as exc:
+                    print(f"[brain] {file_path.name} illisible : {exc}")
 
+    if AYA2_DIALOGUES_PATH.is_file():
+        try:
+            data = json.loads(AYA2_DIALOGUES_PATH.read_text(encoding="utf-8"))
+            items = data.get("dialogues", data) if isinstance(data, dict) else data
+            _BRAIN["dialogues"].extend(
+                {"question": i["question"], "answer": i["answer"]}
+                for i in items
+                if i.get("question") and i.get("answer")
+            )
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"[brain] aya2 illisible : {exc}")
 
-def normalize(text: str) -> str:
-    return re.sub(r"\s+", " ", text.lower().strip())
+    print(
+        f"[brain] {len(_BRAIN['kb'])} fiches | "
+        f"{len(_BRAIN['faq'])} FAQ | {len(_BRAIN['dialogues'])} dialogues"
+    )
 
 
 def choose_response(text: str, sender_name: str = "") -> str:
-    """Select a contextual answer using only local deterministic rules."""
-    kb = load_json(KB_PATH)
-    normalized = normalize(text)
-    faq_pairs = load_faq()
+    """Réponse via le moteur local (scoring sémantique + fuzzy matching)."""
+    if not text or not text.strip():
+        return "Merci pour votre message ! 💬"
 
-    for item in kb.get("rules", []):
-        keywords = [normalize(str(keyword)) for keyword in item.get("keywords", [])]
-        if any(keyword and keyword in normalized for keyword in keywords):
-            return str(item.get("response", kb.get("fallback", "Merci pour votre message.")))
+    answer = trouver_meilleure_reponse(text, _BRAIN["kb"], _BRAIN["faq"], _BRAIN["dialogues"])
+    if answer:
+        return answer
 
-    for question, answer in faq_pairs:
-        question_terms = [term for term in re.findall(r"[a-zà-ÿ0-9]+", normalize(question)) if len(term) > 3]
-        if question_terms and sum(term in normalized for term in question_terms) >= max(1, len(question_terms) // 2):
-            return answer
+    normalized = normalize_text(text)
+    if re.search(r"\b(bonjour|salut|bonsoir|hello|coucou|salam)\b", normalized):
+        return str(_BRAIN["meta"].get("greeting", "Bonjour ! Merci pour votre message 😊"))
 
-    if re.search(r"\b(bonjour|salut|bonsoir|hello|coucou)\b", normalized):
-        greeting = kb.get("greeting", "Bonjour ! Merci pour votre message.")
-        return f"{greeting}"
-
-    fallback = kb.get("fallback", "Merci pour votre message. Notre équipe revient vers vous rapidement.")
-    if sender_name:
+    fallback = str(
+        _BRAIN["meta"].get("fallback")
+        or "Merci pour votre message ! 💬 Notre équipe revient vers vous rapidement."
+    )
+    if sender_name and "{name}" in fallback:
         fallback = fallback.replace("{name}", sender_name)
-    return str(fallback)
+    return fallback
 
 
 def event_key(event_type: str, source_id: str, text: str) -> str:
@@ -229,6 +256,7 @@ def process_payload(payload: dict[str, Any]) -> list[dict[str, Any]]:
 @app.on_event("startup")
 def startup() -> None:
     init_db()
+    load_brain()
 
 
 @app.get("/health")

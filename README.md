@@ -2,7 +2,11 @@
 
 Agent Facebook autonome — répond automatiquement aux **messages privés** et aux **commentaires** de la page Komara Agency.
 
-**100% déterministe** : aucune IA externe, pas de coût API. Les réponses viennent de règles locales (`kb.json`) et de la FAQ (`docs/faq.md`).
+**100% déterministe** : aucune IA externe, pas de coût API. Le bot partage le même cerveau que [komara-knowledge-base](https://github.com/komaraagency/komara-knowledge-base) :
+* **755 fiches** de connaissances (`kb.json`)
+* **28 Q&R** FAQ (`docs/faq.md`)
+* **38 dialogues** commerciaux ton africain pro (`dialogues/` + `docs/aya2/`)
+* Moteur de recherche sémantique local (`local_search.py`) : scoring bidirectionnel, pondération IDF, détection d'intention, **fuzzy matching** (tolère "bonjor", "je veu", français approximatif, abréviations SMS)
 
 ## Fonctionnalités
 - ✅ Réponses automatiques aux commentaires
