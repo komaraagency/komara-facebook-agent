@@ -2241,7 +2241,7 @@
         "en 2 fois",
         "paiement en 2 fois"
       ],
-      "answer": "Oui on peut s'arranger. 60€ maintenant, 39€ à la livraison.\nJuste pour montrer que t'es sérieux.",
+      "answer": "Oui aucun souci.\nSoit 2 x 650€ au lieu de 1200€ d'un coup.\nTu veux que je t'envoie le lien pour le 1er versement ?",
       "tags": [
         "paiement",
         "local"
@@ -2320,7 +2320,7 @@
         "c est trop cher",
         "pourquoi c est cher"
       ],
-      "answer": "Je comprends. 99€ c'est un budget.\nMais dis-moi : si le bot te ramène 1 client de 50€, en 2 clients c'est rentabilisé non ?\nOn voit ça comme un investissement.",
+      "answer": "Je te comprends.\nUn salarié c'est 2500€/mois et il fait des pauses.\nLe bot travaille 24h/24. La plupart de nos clients sont rentables en 21 jours.\nOn commence petit à 490€ si tu veux tester.",
       "tags": [
         "objections",
         "local"

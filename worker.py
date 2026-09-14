@@ -134,6 +134,16 @@ def choose_response(text: str, sender_name: str = "") -> str:
 
     answer = trouver_meilleure_reponse(text, _BRAIN["kb"], _BRAIN["faq"], _BRAIN["dialogues"])
     if answer:
+        # __SHOW_PORTFOLIO__ : commande specifique au bot Telegram (envoi d'images).
+        # Sur Facebook on la remplace par une reponse texte avec le portfolio.
+        if "__SHOW_PORTFOLIO__" in answer:
+            return (
+                "Oui ! Voilà 3 bots qu'on a fait :\n"
+                "1. Coach : +40% de ventes\n"
+                "2. Clinique : -70% d'appels\n"
+                "3. E-commerce : 24h/24\n"
+                "Lequel vous ressemble le plus ? 😊"
+            )
         return answer
 
     normalized = normalize_text(text)
